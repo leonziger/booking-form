@@ -1,0 +1,61 @@
+@import '../../../node_modules/jquery-form-styler/dist/jquery.formstyler';
+@import '../../../node_modules/jquery-form-styler/dist/jquery.formstyler.theme';
+
+.jq-number {
+
+  &__field {
+    width: 30px;
+    height: 27px;
+    border-radius: 0;
+    border-color: rgb(139, 145, 152);
+    box-shadow: none;
+
+    input {
+      padding: 2px;
+      font: 500 18px/1 'Avenir Next Cyr', sans-serif;
+      color: #8b9198;
+      text-align: center;
+    }
+  }
+
+  &__spin {
+    border: none;
+    background: none;
+    box-shadow: none;
+    border-radius: 0;
+    text-shadow: none;
+    border-bottom-color:white;
+    width: 14px;
+    height: 14px;
+    right: unset;
+    left: 30px;
+
+    &:hover {
+      background: none;
+      box-shadow: none;
+    }
+
+    &.plus {
+
+      &:after {
+        top: 2px;
+        left: 5px;
+        border-bottom: 6px solid rgb(237, 153, 21);
+        border-right: 6px solid transparent;
+        border-left: 6px solid transparent;
+      }
+    }
+
+    &.minus {
+
+      &:after {
+        top: 6px;
+        left: 5px;
+        border-top: 6px solid #999;
+        border-right: 6px solid transparent;
+        border-bottom: none;
+        border-left: 6px solid transparent;
+      }
+    }
+  }
+}

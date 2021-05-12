@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Fira Sans';
+    src: local('../fonts/FiraSans/Fira Sans Bold Italic'), local('../fonts/FiraSans/FiraSans-BoldItalic'),
+    url('../fonts/FiraSans/Firasansbolditalic.woff2') format('woff2'),
+    url('../fonts/FiraSans/Firasansbolditalic.woff') format('woff'),
+    url('../fonts/FiraSans/Firasansbolditalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
